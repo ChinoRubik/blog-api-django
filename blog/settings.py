@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'categories',
+    'django_filters',
+    'posts',
+    'comments',
 ]
 
 MIDDLEWARE = [
