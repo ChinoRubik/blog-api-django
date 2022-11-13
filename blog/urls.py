@@ -48,3 +48,5 @@ urlpatterns = [
     path('api/', include(router_posts_p.urls)),
     path('api/', include(router_comments.urls))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
